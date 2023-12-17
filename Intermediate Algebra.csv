@@ -1,0 +1,57 @@
+﻿Topic,Problems,Percent,Incorrect
+Domain and Range,25,96,1
+Graphing Functions,16,100,0
+Inverse Functions,20,100,0
+Function Composition,17,100,0
+Complex Number Arithmetic,24,91.7,"Status:MasteredReport for reginwonPercent:91.7Gave Up:02Correct:22Problems:24PrealgebraAlgebraNumber TheoryCounting & ProbabilityGeometryIntermediate AlgebraPrecalculusAll TopicsIntermediate AlgebraProgress in Intermediate AlgebraTopicsProgressDomain and Range96Graphing Functions96Inverse Functions95Function Composition99Complex Number Arithmetic95Magnitude of Complex Numbers86Basic Complex Numbers85Advanced Complex Numbers14Quadratic Inequalities91Graphing Quadratics94Quadratic Formula / Discriminant92Sum and Product of Roots95Quadratic Optimization92Circles91Ellipses88Hyperbolas86Parabolas68Advanced Conic Sections27Polynomial Division Algorithms85Remainder and Factor Theorem86Basic Polynomial Forms87Advanced Polynomial Forms21Integer / Rational Roots85Irrational Roots84Complex Roots16Polynomial Interpolation65Vieta's Formulas85Basic Polynomial Roots83Advanced Polynomial Roots28Arithmetic Sequences and Series96Geometric Sequences and Series94Telescoping Series76General Sequences and Series62Recursively Defined Sequences28Advanced Sequences and Series12Exponents and Logarithms93Radicals86Floor and Ceiling82Even and Odd Functions85Absolute Value90Piecewise-Defined Functions93Graphs of Rational Functions85Basic Rational Function Equations and Inequalities59Advanced Rational Function Equations and Inequalities14Partial Fractions88General Inequality Skills66AM-GM Inequality59Cauchy-Schwarz Inequality17Power Mean Inequality19Advanced Inequalities12Advanced Algebraic Manipulations85Factorization Identities26Basic Functional Equations71Advanced Functional Equations17Systems of Equations94Binomial Theorem74Problems in Complex Number Arithmetic$2022-12-12 16:27:08If Q=5+2iQ = 5+2i, E=iE = i, and D=5−2iD = 5-2i, find Q⋅E⋅DQ\cdot E \cdot D.$2022-12-12 16:26:12Compute i+i2+i3+⋯+i258+i259i+i^2+i^3+\cdots+i^{258}+i^{259}.$2022-12-12 16:25:28Evaluate i11+i16+i21+i26+i31i^{11} + i^{16} + i^{21} + i^{26} + i^{31}.$2022-12-12 16:21:42Simplify (2+3i)(1−2i)(2+3i)(1-2i).$2022-12-12 16:20:53Ramanujan and Hardy played a game where they both picked a complex number. If the product of their numbers was 32−8i32-8i, and Hardy picked 5+3i5+3i, what number did Ramanujan pick?$2022-12-09 03:54:24Complex numbers are often used when dealing with alternating current (AC) circuits. In the equation V=IZV = IZ, VV is voltage, II is current, and ZZ is a value known as impedance. If V=1−iV = 1-i and Z=1+3iZ=1+3i, find II.  Express your answer as a complex number in the form a+bia+bi, where aa and bb are real numbers.$2022-03-26 21:32:00William Sydney Porter tried to perform the calculation −3+4i1+2i\frac{-3+4i}{1+2i}. However, he accidentally missed the minus sign, finding 3+4i1+2i=115−25i\frac{3+4i}{1+2i}=\frac{11}{5}-\frac{2}{5}i. What answer should he have obtained?$2022-03-26 21:30:02Simplify: i0+i1+⋯+i2009.i^0+i^1+\cdots+i^{2009}.$2022-03-26 21:14:35There are 33 complex numbers a+bia+bi, c+dic+di, and e+fie+fi, where aa, bb, cc, dd, ee, ff are real. If b=3b=3, e=−a−ce=-a-c, and the sum of the numbers is 2i2i, find d+fd+f.%2022-03-26 21:13:42Express (4−5i)(−5+5i)(4-5i)(-5+5i) in the form a+bia+bi, where aa and bb are integers and i2=−1.i^2 = -1.$2022-03-26 21:11:48Evaluatei14762+i14763+i14764+i14765.i^{14762} + i^{14763} + i^{14764} + i^{14765}.$2022-03-26 21:11:24There are 33 complex numbers a+bia+bi, c+dic+di, and e+fie+fi, where aa, bb, cc, dd, ee, ff are real. If b=1b=1, e=−a−ce=-a-c, and the sum of the numbers is −i-i, find d+fd+f.$2021-11-02 19:42:20Solve for zz in the following equation: 1−iz=−1+iz1-iz = -1 + iz (where i2=−1i^2 = -1). Simplify your answer as much as possible.$2021-11-02 19:40:42Compute i−100+i−99+i−98+⋯+i−1+i0+i1+⋯+i99+i100i^{-100}+i^{-99}+i^{-98}+\cdots+i^{-1}+i^0+i^1+\cdots+i^{99}+i^{100}.$2021-11-02 19:37:32Simplify 2+2i−3+4i\displaystyle\frac{2+2i}{-3+4i}.  Express your answer as a complex number in the form a+bia+bi, where aa and bb are real numbers.$2021-11-02 19:32:53Solve for zz in the following equation: 2−3iz=3+2iz2-3iz = 3 + 2iz.%2021-11-02 19:30:58Simplify 3+4i1+2i\dfrac{3+4i}{1+2i}. Your answer should be of the form a+bia+bi, where aa and bb are both real numbers and written as improper fractions (if necessary).$2021-06-09 23:26:36Find (1+i2)46\left(\frac{1+i}{\sqrt{2}}\right)^{46}.$2021-06-08 05:16:18Simplify 1−i2+3i\displaystyle\frac{1-i}{2+3i}, where i2=−1.i^2 = -1.$2021-05-10 05:47:02Karl was attempting to calculate economic figures. He found the following equation to be true:fp−w=10000fp-w=10000If f=5f=5 and w=5+125iw=5+125i, what is pp?"
+Magnitude of Complex Numbers,8,100,0
+Basic Complex Numbers,13,84.6,2
+Advanced Complex Numbers,0,N/A,0
+Quadratic Inequalities,31,77.4,7
+Graphing Quadratics,44,86.4,6
+Quadratic Formula / Discriminant,36,88.9,4
+Sum and Product of Roots,29,89.7,3
+Quadratic Optimization,25,92,2
+Circles,26,88.5,3
+Ellipses,13,92.3,1
+Hyperbolas,15,80,3
+Parabolas,27,74.1,7
+Advanced Conic Sections,9,66.7,3
+Polynomial Division Algorithms,23,82.6,4
+Remainder and Factor Theorem,12,75,3
+Basic Polynomial Forms,14,92.9,1
+Advanced Polynomial Forms,2,50,1
+Integer / Rational Roots,19,79,4
+Irrational Roots,12,83.3,2
+Complex Roots,0,N/A,0
+Polynomial Interpolation,29,79.3,6
+Vieta's Formulas,8,100,0
+Basic Polynomial Roots,6,100,0
+Advanced Polynomial Roots,1,100,0
+Arithmetic Sequences and Series,39,92.3,3
+Geometric Sequences and Series,56,89.3,6
+Telescoping Series,4,100,0
+General Sequences and Series,7,85.7,1
+Recursively Defined Sequences,1,100,0
+Advanced Sequences and Series,0,N/A,0
+Exponents and Logarithms,35,97.1,1
+Radicals,15,93.3,1
+Floor and Ceiling,17,88.2,2
+Even and Odd Functions,10,90,1
+Absolute Value,39,82.1,7
+Piecewise-Defined Functions,17,"2023-01-02 22:12:34If \[f(x) =\begin{cases}x^2-4 &\quad \text{if } x \ge -4, \\x + 3 &\quad \text{otherwise},\end{cases}\]then for how many values of $x$ is $f(f(x)) = 5$?",3
+Graphs of Rational Functions,8,100,0
+Basic Rational Function Equations and Inequalities,6,83.3,1
+Advanced Rational Function Equations and Inequalities,0,N/A,0
+Partial Fractions,8,100,0
+General Inequality Skills,4,100,0
+AM-GM Inequality,4,100,0
+Cauchy-Schwarz Inequality,0,N/A,0
+Power Mean Inequality,0,N/A,0
+Advanced Inequalities,0,N/A,0
+Advanced Algebraic Manipulations,24,83.3,4
+Factorization Identities,1,100,0
+Basic Functional Equations,4,100,0
+Advanced Functional Equations,0,N/A,0
+Systems of Equations,49,93.9,3
+Binomial Theorem,20,80,4

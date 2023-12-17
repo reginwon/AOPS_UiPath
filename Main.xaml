@@ -1,0 +1,358 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="800.8,3088.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="717.6,3024" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="DT" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:BuildDataTable DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="655.2,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Topic&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Problems&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Percent&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Incorrect&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
+      <ui:BuildDataTable.DataTable>
+        <OutArgument x:TypeArguments="sd:DataTable">
+          <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">DT</CSharpReference>
+        </OutArgument>
+      </ui:BuildDataTable.DataTable>
+    </ui:BuildDataTable>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Report - Art of Problem Solving" sap:VirtualizedContainerService.HintSize="655.2,2812" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="99f7a1a9-ebe9-43ff-94b3-cbeb0f448d81" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="621.6,2595.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NSelectItem DisplayName="Select Item 'All Topics'" sap:VirtualizedContainerService.HintSize="559.2,157.6" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Number Theory" ScopeIdentifier="99f7a1a9-ebe9-43ff-94b3-cbeb0f448d81" Version="V3">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="9">
+                  <x:String>Subjects</x:String>
+                  <x:String>Prealgebra</x:String>
+                  <x:String>Algebra</x:String>
+                  <x:String>Number Theory</x:String>
+                  <x:String>Counting &amp; Probability</x:String>
+                  <x:String>Geometry</x:String>
+                  <x:String>Intermediate Algebra</x:String>
+                  <x:String>Precalculus</x:String>
+                  <x:String>All Topics</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="https://artofproblemsolving.com/alcumus/report/me" DesignTimeRectangle="606, 404, 200, 27" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'All Topics'" FullSelectorArgument="&lt;webctrl parentid='alc-page' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='alc-page' tag='A' type='' class='chosen-single' aaname='All Topics' check:innerText='All Topics' /&gt;" Guid="a5944966-d176-43cc-ae6f-4ad80dcafe92" InformativeScreenshot="849c7ba7d5d24c51f4dd38bb805d4578.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Report - Art of Problem Solving' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NForEachUiElement DisplayName="For Each UI Element" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='CurrentElement' ReferenceName='Column0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="559.2,2087.2" sap2010:WorkflowViewState.IdRef="NForEachUiElement_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="99f7a1a9-ebe9-43ff-94b3-cbeb0f448d81" Version="V3">
+              <uix:NForEachUiElement.Body>
+                <ActivityAction x:TypeArguments="x:Int32">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,1820" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="Prob" />
+                      <Variable x:TypeArguments="x:String" Name="Percent" />
+                      <Variable x:TypeArguments="x:String" Name="Incorrect" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign sap:VirtualizedContainerService.HintSize="433.6,82.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="sd:DataRow">
+                          <CSharpReference x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">CurrentDTRow</CSharpReference>
+                        </OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="sd:DataRow">
+                          <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">DT.NewRow()</CSharpValue>
+                        </InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="433.6,137.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="99f7a1a9-ebe9-43ff-94b3-cbeb0f448d81" Version="V3">
+                      <uix:NClick.InUiElement>
+                        <InArgument x:TypeArguments="ui:UiElement">
+                          <CSharpValue x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">CurrentElement</CSharpValue>
+                        </InArgument>
+                      </uix:NClick.InUiElement>
+                    </uix:NClick>
+                    <uix:NGetText DisplayName="Get Text 'Problems'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="99f7a1a9-ebe9-43ff-94b3-cbeb0f448d81" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://artofproblemsolving.com/alcumus/report/me/subject/402/414" CvTextArea="1139, 405, 20, 16" CvType="AnyWordGroup" DesignTimeRectangle="1063, 404, 96, 23" DesignTimeScaleFactor="1" FriendlyName="'Problems: 25'" FullSelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;25 &amp;#x9;&amp;#x9;' parentid='alc-page' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='alc-page' tag='DIV' type='' class='alc-value alc-right' /&gt;" Guid="71193b86-287a-4a33-b9e6-8deca1c443b2" InformativeScreenshot="760748d55ffad5351bb1df922ea076b5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Domain and Range - Art of Problem Solving' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="1061, 405, 75, 16" CvTextArgument="Problems:" CvType="Text" DesignTimeRectangle="1063, 405, 73, 19" ElementType="Text" FriendlyName="'Problems'" FullSelectorArgument="&lt;webctrl aaname='Problems:' parentid='alc-page' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Problems:' parentid='alc-page' tag='SPAN' type='' class='alc--label' check:innerText='Problems:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE0AAAAXCAYAAABOHMIhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANaSURBVFhH7ZbPSxtBFMf7f+Sf2JPgKT1FChJvOWURghCKOYQo9KBQ9FAJCGU9SIQFGwq5KIQSCIgIEkQI3UNgidC0oCIWDEKNoGgJfDs/3v5wu2oytrS0+4WB7Nv33rx8dt7MPEOkoRVBU1AETUERNAVF0BTkQTvbxtSIjlhgjKaWYGwdodcnv6eoVaa8ZVhk+kluHQuonpHtL1MItAyepwtITbIxnqE/qSO50sYNuSrr34V2t9ieVUZS2LMofSKjqv4XaEAX1ZfcrmOq1pXPeflsNNooZfhqJAj9C1jmEpIJ+Z63dqnJY0guNAPrm8t4Hme/41noxX0cO+0fWscVOlsmZlNy5Wvjr7BYO/JWvpM3X4fVMDEtOoR1zMwG7Msr2O+dmjJ356K80p+9T+Qwa7bQfWQrehI0LU6TCWhd1GfomYFIpbPQxLsMpkUckwuNfCZzGKXn5Bq1f0gdx7UFN1fSjWF564G8rB7tztw6xiaygXp06JunIqxbp7yJeSyusY+SlvVr8/vocYf+Z6xzW2IJdR+Tx9uz6WvPA27xoMVSq6gfdtH79l0ULgqIr2LnUoTixjIxRra9W2ZwobEizgM+I+QTrOP2I4p8RbL5i9aViIFdljETFdj82c1ruHN3GWhh43NfS1unUpA2AeWCfWQeo6PYlO9xtos5vpdPmtjjeS73MSfyZmCIiaRCoIUP7yDwoMmVJ2W/Y1+U+75tkYWrDUPE06Tun/PvaY4P7ZlBaO4qKktAQk5MwMef17Hlt1nFUi5IstmmrFlLL2N9q43OOfv4AfUO29g78P4nVwg03+nJR44lbJz6rhzh0KwVaYsxuJ48X4OzfBAa+QSg8RaSMWGjgMohi1GEhusjVN8U3LblQ0sbqH6hFX2PBtjTgvpDK+0F33fKKAXGzonPZ1hojq5PYTe2YeRoT+Zt/8Bh8Mug8SIH39PYHF8DPvftae6+koPh7GlcJy1YlEMNWqDFufotFAO2AdtTERqz//7Tk19j2JZBV49Y+gM63EEJGu+OnHwWp2cZi7TStBmKGfwgUIXGNOg9LV9B1VwY4p7GZm1W2JWAPgSPeb0Bi05gVWjos3tabRW6/562sosOnbaPXzkiDawImoIiaAqKoCkogqagCNrQAn4Au9l1CtSrNwgAAAAASUVORK5CYII=" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                      <uix:NGetText.TextString>
+                        <OutArgument x:TypeArguments="x:String">
+                          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">Prob</CSharpReference>
+                        </OutArgument>
+                      </uix:NGetText.TextString>
+                    </uix:NGetText>
+                    <uix:NGetText DisplayName="Get Text 'Incorrect'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="99f7a1a9-ebe9-43ff-94b3-cbeb0f448d81" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://artofproblemsolving.com/alcumus/report/me/subject/6" DesignTimeRectangle="1252, 404, 92, 23" DesignTimeScaleFactor="1" FriendlyName="'Incorrect: 57'" FullSelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;57 &amp;#x9;&amp;#x9;' parentid='alc-page' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='alc-page' tag='DIV' type='' class='alc-value alc-right alc--wide' /&gt;" Guid="74013cdd-d11c-4f0d-96f8-d28d159ab30e" InformativeScreenshot="da3a00f9fdb078f633966721cf3eb40c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Number Theory - Art of Problem Solving' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="1250, 405, 71, 16" CvTextArgument="Incorrect:" CvType="Text" DesignTimeRectangle="1252, 405, 69, 19" ElementType="Text" FriendlyName="'Incorrect'" FullSelectorArgument="&lt;webctrl aaname='Incorrect:' parentid='alc-page' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Incorrect:' parentid='alc-page' tag='SPAN' type='' class='alc--label' check:innerText='Incorrect:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEkAAAAXCAYAAABH92JbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMnSURBVFhH7VZBSxtBFO7/yJ/ISfAUT3oRj3tyEYIgJR5EQSkKRS8SCJR4EAVBQyEnwYMQKCoUiYHQPSws8aCFRtoKBkFXiKgEvr6Zebs7sYmOteml+8HCzps3b7755s28eYMYzyIWyQCxSAaIRTJALJIBNJEa2JmykeizMb7bYFsMgf9XpIs9jNNaE32L2LlgWxfEIr1WJGeF28UKdrJz6BdBUxPIfDzFnfRgfK8gPzsZ9tvZPZzccJ9A6xrOxjJGBlW8fmsZa1VtI0LCBRy4RdjCb6UGuAXpn5gqwSnlMJDSNvDSxeb7OWlL9KUxMluEc6m6JFpNeNs52MPp3+cM4mrfU4lhJJL4ksPTsCw1oSCVrT5IH7HAjCQqiEyHQiSsIryWcGigNMPjSEBrdAJJjpEJiIUipZHkWG0ipcgu+5nbbQ15S7UlLxYiYRXg3YuAD/DWJ3ls+5zz+9dyU9dyixiSNtr0XAFFt0nCnmJzlGINLqOkZZeZSEsV+HLBTRwsKdvQ1in7KIJDH1yVXa06NtPCJ428R21aqCSYWsUBZ9eds6EIkq0sFhWKZGMk9xknF034t2QPd5wE3arh7Irs5H+2PafslGFnghdlaumdGj+/T4vVj9K5mBHwD1cVj5k9WilB9wkEualgXtqYO8NMJLGrjHbbTxTHVDvrqH4B/6uLctWFd047ujWh/EnECJQJwhaQ6URYIBSpgCh8xDNToqxgNHYXlS/xujtaVf9vSUTux30DHnEqV+vwRbvLnP63GsrHnOGMV4oULNZGXtdAQ6cY+lxy3ItEojmDI9npy37Bj0CwKc6aTug2Zwf0JJNwS8eCj0YvM8laKGBt/dG3XUOjUya1HhSnq+gu/UciifbjOymKI4V70Z1kIlIkfHKG7yQBUc2qXHX1eHwnhXMGwoU+C6GPQA+OG+G8vbpFleZPqpuZSHp1kzHHpsOnwNIhXdxUYJwVrbqN8fOE+mV1E2hFx1ZWSCoMPbq4GX/tnWQoksBNnd5uC20x85/q0fvtqXcSwz/aUG8yEmVAVOvnnwAxuiEWyQCxSAaIRTJALJIBYpGeBfALBQZpGD7q9ggAAAAASUVORK5CYII=" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                      <uix:NGetText.TextString>
+                        <OutArgument x:TypeArguments="x:String">
+                          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_15">Incorrect</CSharpReference>
+                        </OutArgument>
+                      </uix:NGetText.TextString>
+                    </uix:NGetText>
+                    <uix:NGetText DisplayName="Get Text 'Percent'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="99f7a1a9-ebe9-43ff-94b3-cbeb0f448d81" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://artofproblemsolving.com/alcumus/report/me/subject/402/414" CvTextArea="1534, 405, 20, 16" CvType="AnyWordGroup" DesignTimeRectangle="1471, 404, 83, 23" DesignTimeScaleFactor="1" FriendlyName="'Percent: 96'" FullSelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;96 &amp;#x9;&amp;#x9;' parentid='alc-page' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='alc-page' tag='DIV' type='' class='alc-value alc-right' /&gt;" Guid="bccf591d-ecb0-4a71-987d-2f5ef08ff090" InformativeScreenshot="ef29d6195735fe12a2d0d525e889d445.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Domain and Range - Art of Problem Solving' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="1469, 405, 62, 16" CvTextArgument="Percent:" CvType="Text" DesignTimeRectangle="1471, 405, 60, 19" ElementType="Text" FriendlyName="'Percent'" FullSelectorArgument="&lt;webctrl aaname='Percent:' parentid='alc-page' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Percent:' parentid='alc-page' tag='SPAN' type='' class='alc--label' check:innerText='Percent:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAAAXCAYAAAC74kmRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMbSURBVFhH7VZBSxtBFO7/yJ/IqeApPVkKEm97igjBEoo5iIZKSUCSiwS8xFMKQhoKuVQIIiyE2ouIENzDwhKhejAiLbgIGiGiJfD1zeybzVQ3TWx7kG4+GDZ58+btm2/me2+fIeQYE8DP0GJMAD9Diz4B558x93wGkXtjwlhFqdFGp8d+/xkCCEjiRWIRxiyNqaRPRHy9hVt2ffKwq5x3FRabBiGAgDzq52wjdKwq4tKeQvkrG586/iUBgIv6G2Gfwdy2y7YujhobyBjeDYlOLaOw3fZviLXO/nUbZi6FqBaz42wh+1rYyGcyjcyGDVeX14WNysoyXsREjCTib2uwLnhO5LLgxS42bJSXVBx6/46Xm7udl/P6KNlyKhB/RMApvUS+WCQ4m8YE/543vXlFQDSmJOTFvHXUbfJk5m2S/HL76IiFNy2UDLZNaRI0qnDuhEOfADEmDF2my6idEcG2iTIRqGzZ91V8ITt6x6gkyHdyFaa2v+ESaGoSOCTD3QGKMvEUilbXc6KNvRQ+0zU49FcREInlUbG/oXPZxW2vn/xcnW/S9T4KMlYeJp3y6SYnvmDiVNyK3hXMd96a7I54Vz+G8bEtQ6DXRmVW9yEESYDelZW2JEoiSUYAAcHDL4IqeIxORS4UoJOTfh55PgG0xgcRV5A+OdS/sw0/4Do29po2ji77m5s3r3heu9IylkaiL8cA24Aa0DlpYe9QrfMQQIDWBcRIr6GyS6fIOnXNhxrrj0XUTgYQMFBiCkQiSyJwFA/oAP6OgCCMUAPuQQV/lUOB9FW+N4TeRr8BVBeuuw8kYuQexi1vtqhOPAUCfC2lUVI1QODMhsUbCyRAT1TVgBsbxWlh80hxPqTkfHSJa4BArwunecwd5rEEbMDSOsyIEhhCAKHfBbgSczuMJLZwRPPBBNBpU2J6F4hPen5BXSASS0kJqnZY2P21CP6WAH8vXn7ZBtlHL4LDCRBwmzVkEtyHKdmZlU9+vx5EgMDQ74DrNurFnE+O+hR/1A0Q3ymbaz55mR0qqkPbYEgxJoCfocWYAH6GFiEnAPgJIbhzXAySWrEAAAAASUVORK5CYII=" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                      <uix:NGetText.TextString>
+                        <OutArgument x:TypeArguments="x:String">
+                          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_14">Percent</CSharpReference>
+                        </OutArgument>
+                      </uix:NGetText.TextString>
+                    </uix:NGetText>
+                    <Assign sap:VirtualizedContainerService.HintSize="433.6,82.4" sap2010:WorkflowViewState.IdRef="Assign_2">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Object">
+                          <CSharpReference x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">CurrentDTRow["Topic"]</CSharpReference>
+                        </OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Object">
+                          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">CurrentElement_Label</CSharpValue>
+                        </InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign sap:VirtualizedContainerService.HintSize="433.6,82.4" sap2010:WorkflowViewState.IdRef="Assign_3">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Object">
+                          <CSharpReference x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpReference`1_11">CurrentDTRow["Problems"]</CSharpReference>
+                        </OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Object">
+                          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">Prob.Replace("\n","").Replace("\t","").Replace("Problems:","")</CSharpValue>
+                        </InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign sap:VirtualizedContainerService.HintSize="433.6,82.4" sap2010:WorkflowViewState.IdRef="Assign_5">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Object">
+                          <CSharpReference x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpReference`1_16">CurrentDTRow["Incorrect"]</CSharpReference>
+                        </OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Object">
+                          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">Incorrect.Replace("\n","").Replace("\t","").Replace("Incorrect:","")</CSharpValue>
+                        </InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign sap:VirtualizedContainerService.HintSize="433.6,82.4" sap2010:WorkflowViewState.IdRef="Assign_4">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Object">
+                          <CSharpReference x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpReference`1_13">CurrentDTRow["Percent"]</CSharpReference>
+                        </OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Object">
+                          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">Percent.Replace("\n","").Replace("\t","").Replace("Percent:","")</CSharpValue>
+                        </InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,144" sap2010:WorkflowViewState.IdRef="LogMessage_1">
+                      <ui:LogMessage.Message>
+                        <InArgument x:TypeArguments="x:Object">
+                          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">CurrentElement_Label+" "+ Prob.Replace("\n","").Replace("\t","")+": "+Percent.Replace("\n","").Replace("\t","")</CSharpValue>
+                        </InArgument>
+                      </ui:LogMessage.Message>
+                    </ui:LogMessage>
+                    <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="433.6,138.4" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="Add">
+                      <InvokeMethod.TargetObject>
+                        <InArgument x:TypeArguments="sd:DataRowCollection">
+                          <CSharpValue x:TypeArguments="sd:DataRowCollection" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">DT.Rows</CSharpValue>
+                        </InArgument>
+                      </InvokeMethod.TargetObject>
+                      <InArgument x:TypeArguments="sd:DataRow">
+                        <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">CurrentDTRow</CSharpValue>
+                      </InArgument>
+                    </InvokeMethod>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NForEachUiElement.Body>
+              <uix:NForEachUiElement.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="607, 545, 452, 2407" DesignTimeScaleFactor="1" FriendlyName="'Domain and'" FullSelectorArgument="&lt;webctrl class='alc--table-main' tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="e0bc8b95-5c0a-4706-8d4b-5aef9865c865" InformativeScreenshot="c981381edcb1b04996a85d65f5eb1f7e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Intermediate Algebra - Art of Problem Solving' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NForEachUiElement.Target>
+              <uix:NForEachUiElement.Variables>
+                <Variable x:TypeArguments="ui:UiElement" Name="CurrentElement" />
+                <Variable x:TypeArguments="x:String" Name="CurrentElement_Label" />
+                <Variable x:TypeArguments="sd:DataRow" Name="CurrentDTRow" />
+              </uix:NForEachUiElement.Variables>
+              <uix:NForEachUiElement.VariablesMetadata>
+                <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column0" Capacity="4">
+                  <uuam:VariableMetadata Name="CurrentElement" Type="ui:UiElement" />
+                  <uuam:VariableMetadata Name="CurrentElement_Label" Type="x:String" />
+                </scg:List>
+              </uix:NForEachUiElement.VariablesMetadata>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NForEachUiElement>
+            <ui:WriteCsvFile AddHeaders="True" Delimitator="Comma" DisplayName="Write CSV" sap:VirtualizedContainerService.HintSize="559.2,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" ShouldQuote="True">
+              <ui:WriteCsvFile.DataTable>
+                <InArgument x:TypeArguments="sd:DataTable">
+                  <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">DT</CSharpValue>
+                </InArgument>
+              </ui:WriteCsvFile.DataTable>
+              <ui:WriteCsvFile.FilePath>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">"Number Theory"+".csv"</CSharpValue>
+                </InArgument>
+              </ui:WriteCsvFile.FilePath>
+            </ui:WriteCsvFile>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAlCAYAAAAjt+tHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAQdSURBVFhH7ddbaBxVHMfxk9hAqthtqtVkV0xjrWKzFxOSxuBd0BJbqqWkYpO2+iBealF8EBGRSgURRER8EBGR0gcJiBdUFC1iGwvJ7iabPbNb0zSRpqXJaiJai1pNHb//2ZllukySyWZ964FPBiYz//9vz8zZmVV+R3ggoyIJ7VaHvXgZQXufJRYfss8qw2jsN9xNRTW2oBczOIfD6MRSFI6NJhcZxCqSyAeI9WUq2LbhA/wBs4js60F7JK7lWBVO5s9d8Igkz/vEoh6vYBLFjYvl8CoaUKgRxbwjnMy6m4pleAQaXs3mYuBRBFCo2dQ3aHcrGpJQ5A80lrC9G1/iH3g18EPO/QrrqS01pbalMCKJNFOev1bhfIC1eBu/wqtoKX7DOwhH4vSjTzQuqyqdv9FsV+BZjMGrSDn8iOdwJax7jT9puWM3og//wuvEcotjU3jAqFABdalcgvXskHUta9rrhHKSD3mYy91hHskoFVrX3V6j6qtunMgt5x9PY8Q+8P9wDM/UxHWNecSoSmujjQDbj2J/qHlb09ovDqqoMbyGg97EtH1SOfyCt9Yk9HVbBrTKaiM2pI19GJYAOZg4iT1112+us1bHQOZ2TvoUZ+0ipfgbnzUm9J2mmVMnDKOWpi/iBEzkJMCEHcAxEGrdvuMyFa1uMU35bt+JQbvgQqS4zg+r/vRSM5upZrq7aZi0GzsmvAKIs/gk1NJ1W6dpqtjRMXnavYSTrgazOYW99QkdUgdTytDGLTT6GH+5Gs8bwDGFN4LRrauv7tiloqlsE8X34YzdzE327b8hoZtThqFGtHENDV7Hz66GxeYN4BjG7traewJ3meZFLNtNNPsOsmxlWR1iuu9XveklZzKZZRTehR9cjWbjO4A4h29Drd0bK5WqbDo1Kct2N55aEdcrzOPZSq7zvRQ9gBlXk7ksKIDjd7wfbN4We4D7Q33eK8sqQrH3cNpV3I+SAjiygcbOhrHRYw0UyhQV9mtRAaYD4a3h0dGRMIWmiwr7tagAUwRoJEAjhaaKCvt1IcCFAFaAyaLCfpUjwKQEGC8q7Fc5AoxLgPvwNWbswn4tJoB8VctX9mYJIJbjCWTh1cxLqQHkIfUkaiDvhFYAx2q8hp/g1dRtoQHksSyP52tTWiu2KpW2f65RTF21bocdoruC7c34EH/Cq7nwG0BeRD7CrUOGrmSr0jpjBThvrLyj05kFx8V4EP0oNUAcXbgEVlMxODjL70MZwZadzEa3O0gtnsdx+A0wjhcQRKGx5k3J9+DFVIXau/IhWq3LE8W7OI3ZAsj7gLwXxLQ9zYfS31tTXuLYkw/QVpiNKnTgG0wQwHkcT0CW1QbeiqqksaOnp8eutYgRuukhJ4DjcjxGgFUEWEWjx7FSGhIg39y5w+ccSv0HM8XhOHh+czIAAAAASUVORK5CYII=" InformativeScreenshot="b6a93b0d03a59b67d8243c6f4d26a335.jpg" Selector="&lt;html app='chrome.exe' title='Report - Art of Problem Solving' /&gt;" Title="PC01_Performer_HigherDutyAssessment" Url="https://artofproblemsolving.com/alcumus/report/me" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

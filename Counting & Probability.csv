@@ -1,0 +1,28 @@
+﻿Topic,Problems,Percent,Incorrect
+Counting Numbers in Lists,31,93.6,2
+Venn Diagrams,29,100,0
+Counting Independent Events,37,89.2,4
+Factorials,34,88.2,4
+Permutations,25,96,1
+Casework Counting,98,82.7,17
+Complementary Counting,37,83.8,6
+Constructive Counting,18,100,0
+Counting with Restrictions,45,66.7,15
+Counting with Symmetry,70,67.1,23
+Correcting for Overcounting with Division,83,88,10
+Basic Combinations,20,90,2
+Computing Combinations,15,100,0
+Combinations with Restrictions,31,64.5,11
+Distinguishability,38,71.1,11
+Basic Probability as Counting,23,91.3,2
+Basic Probability with Combinations,29,72.4,8
+Probability with Casework,57,64.9,20
+Complementary Probability,20,80,4
+Binomial Probability,20,70,6
+Multiplying Probabilities,16,93.8,1
+Advanced Probability with Combinations,32,68.8,9
+Probability - Think About It!,16,93.8,1
+Using Geometry in Probability,9,100,0
+Expected Value,19,84.2,3
+Pascal's Triangle,14,92.9,1
+Binomial Theorem,20,80,4
