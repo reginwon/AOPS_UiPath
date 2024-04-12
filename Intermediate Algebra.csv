@@ -1,57 +1,57 @@
-﻿Topic,Problems,Percent,Incorrect
-Domain and Range,31,96.8,1
-Graphing Functions,16,100,0
-Inverse Functions,20,100,0
-Function Composition,17,100,0
-Complex Number Arithmetic,24,91.7,2
-Magnitude of Complex Numbers,9,100,0
-Basic Complex Numbers,14,85.7,2
-Advanced Complex Numbers,0,N/A,0
-Quadratic Inequalities,34,79.4,7
-Graphing Quadratics,44,86.4,6
-Quadratic Formula / Discriminant,36,88.9,4
-Sum and Product of Roots,29,89.7,3
-Quadratic Optimization,25,92,2
-Circles,26,88.5,3
-Ellipses,13,92.3,1
-Hyperbolas,15,80,3
-Parabolas,28,75,7
-Advanced Conic Sections,9,66.7,3
-Polynomial Division Algorithms,23,82.6,4
-Remainder and Factor Theorem,12,75,3
-Basic Polynomial Forms,14,92.9,1
-Advanced Polynomial Forms,2,50,1
-Integer / Rational Roots,19,79,4
-Irrational Roots,12,83.3,2
-Complex Roots,0,N/A,0
-Polynomial Interpolation,31,74.2,8
-Vieta's Formulas,8,100,0
-Basic Polynomial Roots,6,100,0
-Advanced Polynomial Roots,1,100,0
-Arithmetic Sequences and Series,39,92.3,3
-Geometric Sequences and Series,56,89.3,6
-Telescoping Series,5,100,0
-General Sequences and Series,10,80,2
-Recursively Defined Sequences,2,100,0
-Advanced Sequences and Series,0,N/A,0
-Exponents and Logarithms,38,97.4,1
-Radicals,15,93.3,1
-Floor and Ceiling,17,88.2,2
-Even and Odd Functions,10,90,1
-Absolute Value,39,82.1,7
-Piecewise-Defined Functions,17,82.4,3
-Graphs of Rational Functions,8,100,0
-Basic Rational Function Equations and Inequalities,6,83.3,1
-Advanced Rational Function Equations and Inequalities,0,N/A,0
-Partial Fractions,8,100,0
-General Inequality Skills,4,100,0
-AM-GM Inequality,4,100,0
-Cauchy-Schwarz Inequality,0,N/A,0
-Power Mean Inequality,0,N/A,0
-Advanced Inequalities,0,N/A,0
-Advanced Algebraic Manipulations,24,83.3,4
-Factorization Identities,1,100,0
-Basic Functional Equations,4,100,0
-Advanced Functional Equations,0,N/A,0
-Systems of Equations,49,93.9,3
-Binomial Theorem,20,80,4
+﻿Problems,Percent,Incorrect
+33,93.9,2
+16,100,0
+23,100,0
+18,100,0
+24,91.7,2
+9,100,0
+14,85.7,2
+0,N/A,0
+34,79.4,7
+44,86.4,6
+37,89.2,4
+29,89.7,3
+25,92,2
+26,88.5,3
+13,92.3,1
+15,80,3
+28,75,7
+9,66.7,3
+23,82.6,4
+12,75,3
+14,92.9,1
+2,50,1
+19,79,4
+12,83.3,2
+0,N/A,0
+33,72.7,9
+8,100,0
+6,100,0
+1,100,0
+39,92.3,3
+56,89.3,6
+5,100,0
+10,80,2
+2,100,0
+0,N/A,0
+38,97.4,1
+15,93.3,1
+18,88.9,2
+10,90,1
+39,82.1,7
+17,82.4,3
+8,100,0
+9,77.8,2
+0,N/A,0
+8,100,0
+7,100,0
+4,100,0
+0,N/A,0
+0,N/A,0
+0,N/A,0
+24,83.3,4
+1,100,0
+4,100,0
+0,N/A,0
+49,93.9,3
+20,80,4
