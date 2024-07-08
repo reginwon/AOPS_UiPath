@@ -23,18 +23,18 @@
 2,50,1
 19,79,4
 12,83.3,2
-0,N/A,0
-33,72.7,9
+1,100,0
+34,73.5,9
 8,100,0
 6,100,0
 1,100,0
 39,92.3,3
 56,89.3,6
 5,100,0
-10,80,2
+12,83.3,2
 2,100,0
 0,N/A,0
-38,97.4,1
+39,97.4,1
 15,93.3,1
 18,88.9,2
 10,90,1
@@ -45,7 +45,7 @@
 0,N/A,0
 8,100,0
 7,100,0
-4,100,0
+5,100,0
 0,N/A,0
 0,N/A,0
 0,N/A,0
@@ -53,5 +53,5 @@
 1,100,0
 4,100,0
 0,N/A,0
-49,93.9,3
+"Status:MasteredReport for reginwonPercent:94Gave Up:0Incorrect:3Correct:4750PrealgebraAlgebraNumber TheoryCounting & ProbabilityGeometryIntermediate AlgebraPrecalculusAll TopicsIntermediate AlgebraProgress in Intermediate AlgebraTopicsProgressDomain and Range96Graphing Functions97Inverse Functions96Function Composition99Complex Number Arithmetic95Magnitude of Complex Numbers91Basic Complex Numbers87Advanced Complex Numbers18Quadratic Inequalities92Graphing Quadratics95Quadratic Formula / Discriminant93Sum and Product of Roots95Quadratic Optimization94Circles92Ellipses89Hyperbolas87Parabolas72Advanced Conic Sections29Polynomial Division Algorithms85Remainder and Factor Theorem87Basic Polynomial Forms89Advanced Polynomial Forms26Integer / Rational Roots86Irrational Roots85Complex Roots34Polynomial Interpolation68Vieta's Formulas86Basic Polynomial Roots85Advanced Polynomial Roots33Arithmetic Sequences and Series96Geometric Sequences and Series94Telescoping Series84General Sequences and Series84Recursively Defined Sequences42Advanced Sequences and Series17Exponents and Logarithms95Radicals87Floor and Ceiling87Even and Odd Functions85Absolute Value91Piecewise-Defined Functions94Graphs of Rational Functions86Basic Rational Function Equations and Inequalities68Advanced Rational Function Equations and Inequalities19Partial Fractions89General Inequality Skills88AM-GM Inequality71Cauchy-Schwarz Inequality21Power Mean Inequality23Advanced Inequalities16Advanced Algebraic Manipulations88Factorization Identities29Basic Functional Equations72Advanced Functional Equations21Systems of Equations95Binomial Theorem75Problems in Systems of Equations$2024-06-26 04:42:09All triangles have the same value, and all circles have the same value. What is the sum of two circles? \begin{align*}\Delta + \bigcirc + \Delta + \bigcirc + \Delta + \bigcirc + \Delta + \Delta&= 21\\\bigcirc + \Delta+\bigcirc+\Delta+\bigcirc + \Delta + \bigcirc + \bigcirc &= 16\\\bigcirc + \bigcirc &= \ \, ?\end{align*}$2023-01-11 17:24:54The workers in a factory produce widgets and whoosits. For each product, production time is constant and identical for all workers, but not necessarily equal for the two products. In one hour, 100 workers can produce 300 widgets and 200 whoosits. In two hours, 60 workers can produce 240 widgets and 300 whoosits. In three hours, 50 workers can produce 150 widgets and $m$ whoosits. Find $m$.$2023-01-10 17:21:07Solve the system\begin{align*}x + 3y + 2z &= 1,\\-3x + y + 5z &= 10,\\-2x - 3y +z &= 7.\end{align*}Enter the solution $(x,y,z)$ as an ordered triplet.$2023-01-04 19:53:25If $a \div b = 2$ and $b \div c = \frac{3}{4}$, what is the value of $c \div a$? Express your answer as a common fraction.$2022-12-12 20:06:19A charity sells 140 benefit tickets for a total of $\$2001$. Some tickets sell for full price (a whole dollar amount), and the rest sell for half price. How much money is raised by the full-price tickets?$2022-12-09 02:46:38How many four-digit numbers $N$ have the property that the three-digit number obtained by removing the leftmost digit is one ninth of $N$?$2022-12-08 15:51:36All triangles have the same value, and all circles have the same value. What is the sum of three circles? \begin{align*}\Delta + \bigcirc + \Delta + \bigcirc + \Delta&= 21\\\bigcirc + \Delta+\bigcirc+\Delta+\bigcirc &= 19\\\bigcirc + \bigcirc + \bigcirc &= \ ?\end{align*}$2022-12-08 15:41:44Solve for $e$, given that $2d$ is $8$ less than $17e$, and $2e$ is $9$ less than $d$.$2022-12-08 15:39:53If \begin{align*}2x-y&=3,\\x+y &=1,\end{align*}compute $8x-7y$.$2022-12-08 15:37:16For what ordered pair $(a,b)$ are there infinite solutions $(x,y)$ to the system \begin{align*}4x+ay&=-8,\\2x+y&=b.\end{align*}$2022-12-08 15:35:54Let $x > 0$ and $y > 0.$ Suppose that $xy^{2} = 6,$ and $x^{2}y^{6} = 72.$ What is the value of $xy\,?$ Express your answer in simplest radical form. $2022-12-08 15:33:00For what ordered pair $(a,b)$ are there infinite solutions $(x,y)$ to the system \begin{align*}3ax+3y&=5b,\\2x+y&=5.\end{align*}$2022-12-08 15:31:00Find an ordered pair $(x,y)$ that solves the system: \begin{align*} 2x - 3y &= -3.2 - 0.2x + 0.1y,\\ x &= 0.6x - y + 8.8 \end{align*}$2022-12-08 15:15:25An algebraic expression of the form $a + bx$ has the value of $15$ when $x = 2$ and the value of $3$ when $x = 5$. Calculate $a + b$.$2022-12-08 03:23:12If the system of equations\begin{align*}6x-4y&=a,\\6y-9x &=b.\end{align*}has a solution $(x, y)$ where $x$ and $y$ are both nonzero, find $\frac{a}{b},$ assuming $b$ is nonzero.$2022-12-08 03:16:34For what ordered pair $(a,b)$ are there infinite solutions $(x,y)$ to the system \begin{align*}2ax+2y&=b,\\5x+y&=-3?\end{align*}$2022-12-08 03:15:16Two squares, with integer side lengths $a$ and $b$, are arranged so that one entire side of the smaller square overlaps a part of a side of the larger square, and the two squares share a vertex, as shown. The perimeter of the entire figure is $86 \text{ cm}$, and the sum of the areas of the two squares is $386 \text{ cm}^2$. In centimeters, what is the value of $a+b$?  [Diagram] $2022-06-28 05:31:58Let $x,$ $y,$ and $z$ be real numbers such that\begin{align*}\log_2 (xyz - 3 + \log_5 x) &= 5, \\\log_3 (xyz - 3 + \log_5 y) &= 4, \\\log_4 (xyz - 3 + \log_5 z) &= 4.\end{align*}Find $xyz.$$2022-01-17 23:54:04Andy, Beth, Charlie, and Daniel take a test with thirty questions. Andy and Beth together get the same number of questions wrong as Charlie and Daniel together. Andy and Daniel together get four more questions wrong than Beth and Charlie do together. If Charlie gets five questions wrong, how many questions does Andy get wrong?$2021-11-08 18:01:44If the system of equations  \begin{align*}3x+y&=a,\\2x+5y&=2a,\end{align*}has a solution $(x,y)$ when $x=2$, compute $a$.$2021-09-01 05:40:39If $x$, $y$, and $z$ are positive numbers satisfying \[x+\frac{1}{y}=4,\ \ \ y+\frac{1}{z}=1,\text{ and }z+\frac{1}{x}=\frac{7}{3},\]find the value of $xyz$.",94,3
 20,80,4
