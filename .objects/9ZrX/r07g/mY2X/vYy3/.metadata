@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Topic",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "vYy3hvEAX0yzn4IPIe9BFg",
+  "Reference": "xL_jtDicqESWrb-tE9CSbg/vYy3hvEAX0yzn4IPIe9BFg",
+  "ParentRef": "xL_jtDicqESWrb-tE9CSbg/mY2XHMR7B0SYH3tJ79nR6w",
+  "Created": "2024-11-27T09:01:59.0267203Z",
+  "Updated": "2024-11-27T09:23:10.6579985Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

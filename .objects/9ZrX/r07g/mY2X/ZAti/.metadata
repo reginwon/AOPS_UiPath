@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Problems",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "ZAtiom0Ts06cqu6d4GG3OQ",
+  "Reference": "xL_jtDicqESWrb-tE9CSbg/ZAtiom0Ts06cqu6d4GG3OQ",
+  "ParentRef": "xL_jtDicqESWrb-tE9CSbg/mY2XHMR7B0SYH3tJ79nR6w",
+  "Created": "2024-11-27T09:04:52.5568688Z",
+  "Updated": "2024-11-27T09:05:25.0577359Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

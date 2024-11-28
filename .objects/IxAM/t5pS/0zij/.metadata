@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Report",
+  "Description": "Alcumus Report",
+  "Type": "Screen",
+  "Id": "0zij1TCKaEqRD8Z6-GWsiA",
+  "Reference": "xL_jtDicqESWrb-tE9CSbg/0zij1TCKaEqRD8Z6-GWsiA",
+  "ParentRef": "xL_jtDicqESWrb-tE9CSbg/t5pStbh7ukWOzAVwwRKnuQ",
+  "Created": "2024-11-27T07:45:10.9770972Z",
+  "Updated": "2024-11-27T07:47:26.6998002Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

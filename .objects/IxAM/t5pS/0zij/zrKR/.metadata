@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Topics",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "zrKRblA79UC6xGlNdgd4Tg",
+  "Reference": "xL_jtDicqESWrb-tE9CSbg/zrKRblA79UC6xGlNdgd4Tg",
+  "ParentRef": "xL_jtDicqESWrb-tE9CSbg/0zij1TCKaEqRD8Z6-GWsiA",
+  "Created": "2024-11-27T07:48:10.4261921Z",
+  "Updated": "2024-11-27T07:51:07.5495543Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

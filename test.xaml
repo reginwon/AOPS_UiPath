@@ -1,0 +1,149 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="test" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="997,846" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="546,781" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Intermediate Algebra - Art of Problem Solving" sap:VirtualizedContainerService.HintSize="484,670" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5675b18f-9089-4723-b156-418e3833c44e" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,453" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="text" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetText DisplayName="Get Text 'Intermediate Algebra'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="5675b18f-9089-4723-b156-418e3833c44e" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://artofproblemsolving.com/alcumus/report/me/subject/402" CvElementArea="598, 380, 201, 28" CvType="InputBox" DesignTimeRectangle="597, 380, 204, 29" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Intermediate Algebra'" Guid="cea0b235-e4df-4ca8-af1e-d1cc4d7f638b" InformativeScreenshot="c12e59a90f620639830c45379aa6165c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Intermediate Algebra - Art of Problem Solving' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="605, 383, 137, 18" CvTextArgument="Intermediate Algebra" CvType="Text" DesignTimeRectangle="607, 383, 135, 18" ElementType="Text" FriendlyName="'Intermediate Algebra'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <uix:NGetText.TextString>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">text</CSharpReference>
+                </OutArgument>
+              </uix:NGetText.TextString>
+            </uix:NGetText>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_1">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">text</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 1920, 1040" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAlCAYAAAAjt+tHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQdSURBVFhH7ddbaBxVHMfxk9hAqthtqtVkV0xjrWKzFxOSxuBd0BJbqqWkYpO2+iBealF8EBGRSgURRER8EBGR0gcJiBdUFC1iGwvJ7iabPbNb0zSRpqXJaiJai1pNHb//2ZllukySyWZ964FPBiYz//9vz8zZmVV+R3ggoyIJ7VaHvXgZQXufJRYfss8qw2jsN9xNRTW2oBczOIfD6MRSFI6NJhcZxCqSyAeI9WUq2LbhA/wBs4js60F7JK7lWBVO5s9d8Igkz/vEoh6vYBLFjYvl8CoaUKgRxbwjnMy6m4pleAQaXs3mYuBRBFCo2dQ3aHcrGpJQ5A80lrC9G1/iH3g18EPO/QrrqS01pbalMCKJNFOev1bhfIC1eBu/wqtoKX7DOwhH4vSjTzQuqyqdv9FsV+BZjMGrSDn8iOdwJax7jT9puWM3og//wuvEcotjU3jAqFABdalcgvXskHUta9rrhHKSD3mYy91hHskoFVrX3V6j6qtunMgt5x9PY8Q+8P9wDM/UxHWNecSoSmujjQDbj2J/qHlb09ovDqqoMbyGg97EtH1SOfyCt9Yk9HVbBrTKaiM2pI19GJYAOZg4iT1112+us1bHQOZ2TvoUZ+0ipfgbnzUm9J2mmVMnDKOWpi/iBEzkJMCEHcAxEGrdvuMyFa1uMU35bt+JQbvgQqS4zg+r/vRSM5upZrq7aZi0GzsmvAKIs/gk1NJ1W6dpqtjRMXnavYSTrgazOYW99QkdUgdTytDGLTT6GH+5Gs8bwDGFN4LRrauv7tiloqlsE8X34YzdzE327b8hoZtThqFGtHENDV7Hz66GxeYN4BjG7traewJ3meZFLNtNNPsOsmxlWR1iuu9XveklZzKZZRTehR9cjWbjO4A4h29Drd0bK5WqbDo1Kct2N55aEdcrzOPZSq7zvRQ9gBlXk7ksKIDjd7wfbN4We4D7Q33eK8sqQrH3cNpV3I+SAjiygcbOhrHRYw0UyhQV9mtRAaYD4a3h0dGRMIWmiwr7tagAUwRoJEAjhaaKCvt1IcCFAFaAyaLCfpUjwKQEGC8q7Fc5AoxLgPvwNWbswn4tJoB8VctX9mYJIJbjCWTh1cxLqQHkIfUkaiDvhFYAx2q8hp/g1dRtoQHksSyP52tTWiu2KpW2f65RTF21bocdoruC7c34EH/Cq7nwG0BeRD7CrUOGrmSr0jpjBThvrLyj05kFx8V4EP0oNUAcXbgEVlMxODjL70MZwZadzEa3O0gtnsdx+A0wjhcQRKGx5k3J9+DFVIXau/IhWq3LE8W7OI3ZAsj7gLwXxLQ9zYfS31tTXuLYkw/QVpiNKnTgG0wQwHkcT0CW1QbeiqqksaOnp8eutYgRuukhJ4DjcjxGgFUEWEWjx7FSGhIg39y5w+ccSv0HM8XhOHh+czIAAAAASUVORK5CYII=" InformativeScreenshot="47567dbf6732de619d22828329f8e153.jpg" Selector="&lt;html app='chrome.exe' title='Intermediate Algebra - Art of Problem Solving' /&gt;" Title="Intermediate Algebra - Art of Problem Solving" Url="https://artofproblemsolving.com/alcumus/report/me/subject/402" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

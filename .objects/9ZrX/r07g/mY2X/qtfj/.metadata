@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Percent",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "qtfjSSIPR02iIHk1O1YFBQ",
+  "Reference": "xL_jtDicqESWrb-tE9CSbg/qtfjSSIPR02iIHk1O1YFBQ",
+  "ParentRef": "xL_jtDicqESWrb-tE9CSbg/mY2XHMR7B0SYH3tJ79nR6w",
+  "Created": "2024-11-27T09:14:20.6470959Z",
+  "Updated": "2024-11-27T09:26:52.1810106Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

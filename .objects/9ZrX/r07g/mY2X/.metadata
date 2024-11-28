@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Alcums Report",
+  "Type": "Screen",
+  "Id": "mY2XHMR7B0SYH3tJ79nR6w",
+  "Reference": "xL_jtDicqESWrb-tE9CSbg/mY2XHMR7B0SYH3tJ79nR6w",
+  "ParentRef": "xL_jtDicqESWrb-tE9CSbg/r07gAQ29hUqCO7k-yCQ2MQ",
+  "Created": "2024-11-27T08:57:50.6809266Z",
+  "Updated": "2024-11-27T09:04:52.4461519Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
