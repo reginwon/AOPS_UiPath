@@ -1,5 +1,6 @@
 {
   "name": "AOPS",
+  "projectId": "75df6058-bab1-4b5a-a327-4e30373718c8",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -41,7 +42,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "saveToCloud": false
   },
   "expressionLanguage": "CSharp",
   "entryPoints": [
